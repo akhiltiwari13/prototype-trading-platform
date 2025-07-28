@@ -1,0 +1,16 @@
+{
+  "stream_count": 4,
+  "host": "localhost",
+  "port": 9999,
+  "recovery_host": "localhost",
+  "recovery_port": 9998,
+  "tokens": [35019, 35020, 35021, 35022, 35023, 36690, 36691, 36692, 36693, 36694],
+  "simulation": {
+    "enabled": true,
+    "base_price": 18500.0,
+    "volatility": 0.02,
+    "ticks_per_second": 10,
+    "max_orders_per_tick": 5,
+    "enable_trades": true
+  }
+}

@@ -1,0 +1,6 @@
+# Libraries for Alternate Trading Platform
+
+add_subdirectory(OptionsGreeks)
+add_subdirectory(DatabaseLayer)
+add_subdirectory(MarketDataProvider)
+add_subdirectory(TradingEngine)

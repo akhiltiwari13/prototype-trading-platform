@@ -1,0 +1,22 @@
+{
+  "server": {
+    "port": 8080,
+    "max_connections": 1000
+  },
+  "database": {
+    "path": "simulation_data/contracts.db",
+    "connection_pool_size": 10
+  },
+  "risk_management": {
+    "max_order_value": 1000000.0,
+    "max_order_quantity": 10000,
+    "max_daily_loss": 50000.0,
+    "max_position_value": 500000.0,
+    "max_orders_per_second": 10
+  },
+  "simulation": {
+    "enabled": true,
+    "auto_fill_orders": true,
+    "fill_delay_ms": 100
+  }
+}
