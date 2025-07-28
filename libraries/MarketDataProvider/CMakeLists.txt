@@ -43,6 +43,6 @@ install(DIRECTORY include/ DESTINATION include)
 
 install(EXPORT MarketDataProviderTargets
     FILE MarketDataProviderTargets.cmake
-    NAMESPACE AlternateTradingPlatform::
+    NAMESPACE PrototypeTradingPlatform::
     DESTINATION lib/cmake/MarketDataProvider
 )

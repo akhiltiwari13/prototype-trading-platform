@@ -39,4 +39,7 @@ cmake .. \
 echo "Building project..."
 cmake --build . --target all
 
+echo "copying compile-commands.json to project-root..."
+cp ./compile_commands.json ../
+
 echo "Build completed successfully!"

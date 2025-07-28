@@ -1,0 +1,88 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"libraries/OptionsGreeks/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libraries/OptionsGreeks/libOptionsGreeks.a"
+			],
+			"targetId" : "OptionsGreeks::@1495d4e7bb1bed39e3de",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "libraries/OptionsGreeks/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/OptionsGreeks",
+			"exportName" : "OptionsGreeksTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "OptionsGreeks::@1495d4e7bb1bed39e3de",
+					"index" : 5
+				}
+			],
+			"paths" : 
+			[
+				"libraries/OptionsGreeks/CMakeFiles/Export/16f6c4060e2c46d33a63cf3766d9c090/OptionsGreeksTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libraries/OptionsGreeks",
+		"source" : "libraries/OptionsGreeks"
+	}
+}

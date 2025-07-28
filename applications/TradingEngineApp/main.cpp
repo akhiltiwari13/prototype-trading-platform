@@ -102,7 +102,7 @@ private:
     }
 };
 
-int main(int argc, char* argv[]) {
+int main([[maybe_unused]] int argc,[[maybe_unused]]  char* argv[]) {
     // Initialize logging
     spdlog::set_level(spdlog::level::info);
     spdlog::info("Starting Alternate Trading Platform - Trading Engine");

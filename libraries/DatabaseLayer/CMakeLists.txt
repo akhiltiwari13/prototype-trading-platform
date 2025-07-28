@@ -50,6 +50,6 @@ install(DIRECTORY include/ DESTINATION include)
 
 install(EXPORT DatabaseLayerTargets
     FILE DatabaseLayerTargets.cmake
-    NAMESPACE AlternateTradingPlatform::
+    NAMESPACE PrototypeTradingPlatform::
     DESTINATION lib/cmake/DatabaseLayer
 )

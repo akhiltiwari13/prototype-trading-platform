@@ -46,6 +46,6 @@ install(DIRECTORY include/ DESTINATION include)
 
 install(EXPORT TradingEngineTargets
     FILE TradingEngineTargets.cmake
-    NAMESPACE AlternateTradingPlatform::
+    NAMESPACE PrototypeTradingPlatform::
     DESTINATION lib/cmake/TradingEngine
 )

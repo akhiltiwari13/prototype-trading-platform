@@ -41,6 +41,6 @@ install(DIRECTORY include/ DESTINATION include)
 
 install(EXPORT OptionsGreeksTargets
     FILE OptionsGreeksTargets.cmake
-    NAMESPACE AlternateTradingPlatform::
+    NAMESPACE PrototypeTradingPlatform::
     DESTINATION lib/cmake/OptionsGreeks
 )

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMarketDataProvider.a CMakeFiles/MarketDataProvider.dir/src/StreamManager.cpp.o CMakeFiles/MarketDataProvider.dir/src/LadderBuilder.cpp.o
+/usr/bin/ranlib libMarketDataProvider.a

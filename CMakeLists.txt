@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.21)
 
-project(AlternateTradingPlatform VERSION 1.0 LANGUAGES CXX)
+project(PrototypeTradingPlatform VERSION 1.0 LANGUAGES CXX)
 
-message(STATUS "***AlternateTradingPlatform pre-build*** ${PROJECT_SOURCE_DIR}. building with cmake version: ${CMAKE_VERSION}")
+message(STATUS "***PrototypeTradingPlatform pre-build*** ${PROJECT_SOURCE_DIR}. building with cmake version: ${CMAKE_VERSION}")
 
 if(APPLE)
   message(STATUS "Building on macOS (Apple Silicon/Intel)")

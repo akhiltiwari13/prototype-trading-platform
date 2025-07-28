@@ -1,15 +1,16 @@
-# Alternate Trading Platform
+# A Prototype Trading Platform
 
 A modern, high-performance trading platform built for Apple Silicon (M1/M2) and x86 architectures. This is a complete rewrite and enhancement of the original trading system with improved architecture, better performance, and modern C++20 features.
+inspired by [this work](https://github.com/kingofknights?tab=repositories) 
 
 ## Architecture Overview
 
-The platform is organized into modular libraries and applications:
+This is primarily a lightweight monolith which  organized into modular libraries and applications:
 
 ### Libraries (`libraries/`)
 
 - **OptionsGreeks**: Black-Scholes options pricing model with Greeks calculations
-- **DatabaseLayer**: Database abstraction layer for contract information and trading data
+- **DatabaseLayer**: Database abstraction layer for contract information and trading data. Simulation data/mode available!
 - **MarketDataProvider**: Real-time market data processing and order book management
 - **TradingEngine**: Core trading engine with order management and risk controls
 
@@ -24,15 +25,16 @@ The platform is organized into modular libraries and applications:
 Comprehensive unit tests for all libraries using Google Test framework.
 
 ## Component Mapping
+This is a comparison of this project from it's source project.
 
 | Original Component | New Component | Description |
 |-------------------|---------------|-------------|
-| Arthur | TradingFrontendApp | Trading GUI frontend |
+| Arthur | TradingFrontendApp | Trading GUI frontend @TODO: replace sdl2 with imgui. |
 | Merlin | TradingEngineApp | Backend trading engine |
 | Excalibur | MarketDataApp | Market data provider |
 | Lancelot | DatabaseLayer | Database connection layer |
 | Greeks | OptionsGreeks | Options pricing model |
-| Gawain | TradingEngine | API layer (integrated into engine) |
+| Gawain | TradingEngineApp | API layer (integrated into engine) |
 
 ## Features
 
@@ -89,7 +91,7 @@ conan profile detect --force
 
 ### 1. Install Dependencies
 ```bash
-cd AlternateTradingPlatform
+cd prototype-trading-platform
 
 # Install dependencies with Conan
 conan install . --output-folder=build --build=missing -s build_type=Release

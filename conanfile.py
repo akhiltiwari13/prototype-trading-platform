@@ -2,7 +2,7 @@ from conan import ConanFile
 from conan.tools.cmake import CMakeDeps, CMakeToolchain, cmake_layout
 
 
-class AlternateTradingPlatformRecipe(ConanFile):
+class PrototypeTradingPlatformRecipe(ConanFile):
     name = "alternate-trading-platform"
     version = "1.0"
 

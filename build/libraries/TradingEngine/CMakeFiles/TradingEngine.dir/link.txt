@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTradingEngine.a CMakeFiles/TradingEngine.dir/src/OrderManager.cpp.o CMakeFiles/TradingEngine.dir/src/RiskManager.cpp.o
+/usr/bin/ranlib libTradingEngine.a

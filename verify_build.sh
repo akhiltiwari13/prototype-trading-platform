@@ -23,13 +23,13 @@ print_error() {
 }
 
 # Build the project
-print_info "Building complete project..."
-if ./fix_build.sh; then
-    print_success "Build completed successfully"
-else
-    print_error "Build failed"
-    exit 1
-fi
+# print_info "Building complete project..."
+# if ./fix_build.sh; then
+#     print_success "Build completed successfully"
+# else
+#     print_error "Build failed"
+#     exit 1
+# fi
 
 # Verify all executables exist
 print_info "Verifying executables..."

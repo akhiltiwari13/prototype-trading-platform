@@ -1,0 +1,2 @@
+/usr/bin/ar qc libOptionsGreeks.a CMakeFiles/OptionsGreeks.dir/src/OptionsGreeks.cpp.o CMakeFiles/OptionsGreeks.dir/src/BlackScholesModel.cpp.o
+/usr/bin/ranlib libOptionsGreeks.a
