@@ -1,2 +1,0 @@
-/usr/bin/ar qc libDatabaseLayer.a CMakeFiles/DatabaseLayer.dir/src/Enums.cpp.o CMakeFiles/DatabaseLayer.dir/src/Logger.cpp.o CMakeFiles/DatabaseLayer.dir/src/ContractFetcher.cpp.o
-/usr/bin/ranlib libDatabaseLayer.a

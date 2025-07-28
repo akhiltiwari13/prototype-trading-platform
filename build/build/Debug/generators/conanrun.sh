@@ -1,1 +1,0 @@
-. "/Users/akhil/files/projects/prototype-trading-platform/build/build/Debug/generators/conanrunenv-debug-armv8.sh"
